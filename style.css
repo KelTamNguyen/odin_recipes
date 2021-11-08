@@ -9,6 +9,15 @@ h2, h3, h4 {
     color: #EC6792;
 }
 
+.page-content {
+    border-bottom: 1px solid #3EC0E4;
+}
+
 p, li {
     font-family: 'EB Garamond', serif;
+}
+
+img {
+    width: auto;
+    height: 20em;
 }
