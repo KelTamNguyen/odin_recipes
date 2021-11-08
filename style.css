@@ -1,0 +1,14 @@
+.title {
+    font-family: 'Impact', sans-serif;
+    font-weight: 1000;
+    color: #EC6792;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    color: #EC6792;
+}
+
+p, li {
+    font-family: 'EB Garamond', serif;
+}
