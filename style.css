@@ -1,16 +1,26 @@
+#recipes-list {
+    list-style: none;
+}
+
 .title {
-    font-family: 'Impact', sans-serif;
+    font-family: 'Franklin Gothic', sans-serif;
     font-weight: 1000;
     color: #EC6792;
 }
 
-h2, h3, h4 {
-    font-family: 'EB Garamond', serif;
+.page-content {
     color: #EC6792;
+    border-bottom: 1px solid #40BFE2;
 }
 
-.page-content {
-    border-bottom: 1px solid #3EC0E4;
+.cookie-img {
+    max-width: 400px;
+    height: auto;
+}
+
+h2, h3, h4 {
+    font-family: 'Franklin Gothic', sans-serif;
+    color: #EC6792;
 }
 
 p, li {
@@ -22,6 +32,15 @@ img {
     height: 20em;
 }
 
-#recipes-list {
-    list-style: none;
+a {
+    color: #40BFE2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EC6792;
+}
+
+.ingredients-list li {
+    color: #40BFE2;
 }
