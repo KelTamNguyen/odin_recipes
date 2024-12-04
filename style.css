@@ -6,6 +6,7 @@
     font-family: 'Franklin Gothic', sans-serif;
     font-weight: 1000;
     color: #EC6792;
+    text-align: center;
 }
 
 .page-content {
@@ -16,6 +17,33 @@
 .cookie-img {
     max-width: 400px;
     height: auto;
+}
+
+.flex-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.info-list {
+    height: 85vh;
+    overflow-y: auto;
+}
+
+figcaption {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+details[open] {
+}
+
+details > summary {
+    font-family: 'Franklin Gothic', sans-serif;
+    font-size: 1.5em;
+    color: #EC6792;
+    font-weight: bold;
 }
 
 h2, h3, h4 {
@@ -35,10 +63,12 @@ img {
 a {
     color: #40BFE2;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     color: #EC6792;
+    font-weight: bold;
 }
 
 .ingredients-list li {
