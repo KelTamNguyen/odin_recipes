@@ -1,3 +1,5 @@
+@import url('modern-normalize.css');
+
 #recipes-list {
     list-style: none;
 }
