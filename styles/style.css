@@ -1,4 +1,4 @@
-@import url('modern-normalize.css');
+@import "reset.css";
 
 #recipes-list {
     list-style: none;
@@ -34,7 +34,7 @@
 
 figcaption {
     font-family: 'EB Garamond', serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ details[open] {
 
 details > summary {
     font-family: 'Franklin Gothic', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #EC6792;
     font-weight: bold;
 }
@@ -55,11 +55,7 @@ h2, h3, h4 {
 
 p, li {
     font-family: 'EB Garamond', serif;
-}
-
-img {
-    width: auto;
-    height: 20em;
+    font-size: 1.125rem;
 }
 
 a {
