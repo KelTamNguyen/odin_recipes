@@ -1,5 +1,27 @@
 @import "reset.css";
 
+:root {
+    --pink: #EC6792;
+    --blue: #40BFE2;
+}
+
+#title {
+    text-align: center;
+    color: var(--pink);
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
 #recipes-list {
     list-style: none;
 }
@@ -7,13 +29,13 @@
 .title {
     font-family: 'Franklin Gothic', sans-serif;
     font-weight: 1000;
-    color: #EC6792;
+    color: var(--pink);
     text-align: center;
 }
 
 .page-content {
-    color: #EC6792;
-    border-bottom: 1px solid #40BFE2;
+    color: var(--pink);
+    border-bottom: 1px solid var(--blue);
 }
 
 .cookie-img {
@@ -38,19 +60,16 @@ figcaption {
     text-align: center;
 }
 
-details[open] {
-}
-
 details > summary {
     font-family: 'Franklin Gothic', sans-serif;
     font-size: 1.5rem;
-    color: #EC6792;
+    color: var(--pink);
     font-weight: bold;
 }
 
 h2, h3, h4 {
     font-family: 'Franklin Gothic', sans-serif;
-    color: #EC6792;
+    color: var(--pink);
 }
 
 p, li {
@@ -59,16 +78,16 @@ p, li {
 }
 
 a {
-    color: #40BFE2;
+    color: var(--blue);
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #EC6792;
+    color: var(--pink);
     font-weight: bold;
 }
 
 .ingredients-list li {
-    color: #40BFE2;
+    color: var(--blue);
 }
