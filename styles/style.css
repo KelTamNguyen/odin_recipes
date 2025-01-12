@@ -26,6 +26,10 @@ img {
     list-style: none;
 }
 
+footer {
+    text-align: center;
+}
+
 .title {
     font-family: 'Franklin Gothic', sans-serif;
     font-weight: 1000;
